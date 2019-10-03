@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<article>
+  <h2>{{ page.title }}</h2>
+
+  {{ page.content }}
+
+  <section>
+  <time datetime="{{ page.date | date:"%F" }}">({{ page.date | date: "%m/%d/%Y" }})</time>
+  {% if page.tags.size > 0 %}
+    <small><em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+  {% endif %}
+  </section>
+
+</article>

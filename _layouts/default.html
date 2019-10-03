@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38690663-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ site.google_analytics }}');
+    </script>
+
+    {% seo %}
+
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  </head>
+  <body>
+    <header>
+      <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+
+      <nav>
+        <ol>
+            <li><a href="{{ "/" | relative_url }}">Home</a></li>
+            <li><a href="https://www.linkedin.com/in/carsonreinke/#_=_">LinkedIn</a></li>
+            <li><a href="https://twitter.com/carsonreinke#_=_">Twitter</a></li>
+            <li><a href="https://github.com/carsonreinke">GitHub</a></li>
+            <li><a href="https://drive.google.com/file/d/1fIM92Xrs5ZmcOMDI3ySxkfRQZeLhV9Ui/view?usp=sharing">Resume</a></li>
+        </ol>
+      </nav>
+    </header>
+    <main>{{ content }}</main>
+    <footer>
+    </footer>
+  </body>
+</html>

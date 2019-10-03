@@ -1,0 +1,19 @@
+body > header > nav {
+}
+
+body > header > nav > ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+body > header > nav > ol > li {
+    display: inline-block;
+}
+
+body > header > nav > ol > li::after {
+    content: ' |';
+}
+
+body > header > nav > ol > li:last-child::after {
+    content: '';
+}
