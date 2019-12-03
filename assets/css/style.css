@@ -1,23 +1,28 @@
 body {
-    font-size: 16px;
+    font-size: 1em;
 }
 
-body > header > nav {
+header > nav {
 }
 
-body > header > nav > ol {
+header > nav > ol {
     list-style-type: none;
     padding-left: 0;
 }
 
-body > header > nav > ol > li {
+header > nav > ol > li {
     display: inline-block;
 }
 
-body > header > nav > ol > li::after {
+header > nav > ol > li::after {
     content: ' |';
 }
 
-body > header > nav > ol > li:last-child::after {
+header > nav > ol > li:last-child::after {
     content: '';
+}
+
+main > ol > li {
+    max-width: 100%;
+    overflow: scroll;
 }
