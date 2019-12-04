@@ -1,11 +1,13 @@
 body {
+    font-family: 'Public Sans', sans-serif;
     font-size: 1em;
 
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
 
-header > nav {
+a:visited {
+    color: rgb(0, 0, 238)
 }
 
 header > nav > ol {
