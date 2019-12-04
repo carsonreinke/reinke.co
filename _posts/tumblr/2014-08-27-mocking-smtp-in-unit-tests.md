@@ -12,5 +12,17 @@ I’m sure there are other better ways to do this, but I just wanted to try doin
 
 Instead of just starting a process up, I added the following to the `test_helper.rb`
 
-    mailcatcher\_process\_id = Kernel.fork do require 'mail\_catcher' MailCatcher.run!(:daemon =\> false) end $stderr.puts('Unable to fork mailcatcher') if mailcatcher\_process\_id.nil?() Kernel.at\_exit do unless mailcatcher\_process\_id.nil?() Process.kill('TERM', mailcatcher\_process\_id) rescue nil Process.kill('SIGTERM', mailcatcher\_process\_id) rescue nil end end
+```
+mailcatcher_process_id = Kernel.fork do 
+    require 'mail_catcher' 
+    MailCatcher.run!(:daemon => false) 
+end 
+$stderr.puts('Unable to fork mailcatcher') if mailcatcher_process_id.nil?() 
+Kernel.at_exit do 
+    unless mailcatcher_process_id.nil?()
+        Process.kill('TERM', mailcatcher_process_id) rescue nil 
+        Process.kill('SIGTERM', mailcatcher_process_id) rescue nil 
+    end 
+end
+```
 
