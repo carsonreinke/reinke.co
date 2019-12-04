@@ -1,5 +1,8 @@
 body {
     font-size: 1em;
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 header > nav {
@@ -20,9 +23,4 @@ header > nav > ol > li::after {
 
 header > nav > ol > li:last-child::after {
     content: '';
-}
-
-main > ol > li {
-    max-width: 100%;
-    overflow: scroll;
 }
