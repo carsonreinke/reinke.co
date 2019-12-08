@@ -26,3 +26,7 @@ header > nav > ol > li::after {
 header > nav > ol > li:last-child::after {
     content: '';
 }
+
+pre {
+    overflow: scroll;
+}
