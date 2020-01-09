@@ -30,3 +30,7 @@ header > nav > ol > li:last-child::after {
 pre {
     overflow: scroll;
 }
+
+article img {
+    max-width: 100%;
+}
