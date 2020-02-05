@@ -8,6 +8,11 @@ const fs = require('fs'),
 
 const url = new URL(process.argv[2]);
 
+/**
+ * Read the Jekyll configuration
+ * 
+ * @returns Object
+ */
 const config = async function() {
     const filePath = '_config.yml';
 
@@ -23,14 +28,17 @@ const config = async function() {
 }
 
 /**
+ * Generate a truncated summary using supplied description
  * 
- * @param {*} description 
+ * @param String description 
+ * @returns String
  */
 const postSummary = function (description) {
     return truncate(description.replace(/\n/g, ' ↵ '), 155);
 };
 
 /**
+ * Generate template file for post using Jekyll format
  * 
  * @param Object post 
  * @returns String
@@ -56,8 +64,11 @@ ${post.description.replace(/\n/g, '<br>')}
 };
 
 /**
+ * Write post to file using the supplied template
  * 
- * @param {*} template 
+ * @param Object post
+ * @param String template 
+ * @returns Promise
  */
 const writePost = async function (post, template) {
     const filePath = path.join(
@@ -83,8 +94,8 @@ const writePost = async function (post, template) {
         config: await config(),
         title: details.title,
         slug: slugify(details.title),
-        description: details.description,
-        summary: postSummary(details.description),
+        description: details.description || details.title,
+        summary: postSummary(details.description || details.title),
         date: new Date(),
         link: url,
     };
