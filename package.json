@@ -1,0 +1,24 @@
+{
+  "name": "reinke.co",
+  "version": "0.0.0",
+  "description": "",
+  "dependencies": {
+    "yaml": "^1.7.2"
+  },
+  "devDependencies": {
+    "jekyll-utils": "^0.2.0",
+    "moment": "^2.24.0",
+    "truncate": "^2.1.0",
+    "twitter": "^1.7.1",
+    "unfurl.js": "^5.0.1"
+  },
+  "scripts": {
+    "post-url": "node post-url.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carsonreinke/reinke.co.git"
+  },
+  "author": "Carson Reinke",
+  "license": "MIT"
+}
