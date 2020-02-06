@@ -13,26 +13,26 @@ export OPEN=$(which xdg-open)
 
 #
 echo 'Creating Jekyll post'
-export POST_URL=$($NPM_BIN run post-url $URL)
+export POST_URL=$($NPM_BIN run post-url --silent $URL)
 if [[ $? -ne 0 ]]; then
     exit $?
 fi
 
 #Commit and push changes up
 echo 'Updating GitHub with post'
-$GIT_BIN checkout master
+$GIT_BIN checkout master >/dev/null
 if [[ $? -ne 0 ]]; then
     exit $?
 fi
-$GIT_BIN add _posts
+$GIT_BIN add _posts >/dev/null
 if [[ $? -ne 0 ]]; then
     exit $?
 fi
-$GIT_BIN commit -m "Added post about $URL"
+$GIT_BIN commit -m "Added post about $URL" >/dev/null
 if [[ $? -ne 0 ]]; then
     exit $?
 fi
-$GIT_BIN push origin
+$GIT_BIN push origin >/dev/null
 if [[ $? -ne 0 ]]; then
     exit $?
 fi
@@ -43,7 +43,7 @@ sleep 60
 
 #Tweet post (well, kind of)
 echo "Tweeting post $POST_URL"
-export TWEET_URL = $($NPM_BIN run tweet-url $POST_URL)
+export TWEET_URL = $($NPM_BIN run tweet-url --silent $POST_URL)
 if [[ $? -ne 0 ]]; then
     exit $?
 fi
