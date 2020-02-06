@@ -24,7 +24,7 @@ $GIT_BIN checkout --quiet master >/dev/null
 if [[ $? -ne 0 ]]; then
     exit $?
 fi
-$GIT_BIN add --quiet _posts >/dev/null
+$GIT_BIN add _posts >/dev/null
 if [[ $? -ne 0 ]]; then
     exit $?
 fi
