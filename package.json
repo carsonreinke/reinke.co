@@ -4,7 +4,6 @@
   "description": "",
   "dependencies": {},
   "devDependencies": {
-    "dotenv": "^8.2.0",
     "jekyll-utils": "^0.2.0",
     "moment": "^2.24.0",
     "truncate": "^2.1.0",
