@@ -20,19 +20,19 @@ fi
 
 #Commit and push changes up
 echo 'Updating GitHub with post'
-$GIT_BIN checkout master >/dev/null
+$GIT_BIN checkout --quiet master >/dev/null
 if [[ $? -ne 0 ]]; then
     exit $?
 fi
-$GIT_BIN add _posts >/dev/null
+$GIT_BIN add --quiet _posts >/dev/null
 if [[ $? -ne 0 ]]; then
     exit $?
 fi
-$GIT_BIN commit -m "Added post about $URL" >/dev/null
+$GIT_BIN commit --quiet --message="Added post about $URL" >/dev/null
 if [[ $? -ne 0 ]]; then
     exit $?
 fi
-$GIT_BIN push origin >/dev/null
+$GIT_BIN push --quiet origin
 if [[ $? -ne 0 ]]; then
     exit $?
 fi
@@ -43,7 +43,7 @@ sleep 60
 
 #Tweet post (well, kind of)
 echo "Tweeting post $POST_URL"
-export TWEET_URL = $($NPM_BIN run tweet-url --silent $POST_URL)
+export TWEET_URL=$($NPM_BIN run tweet-url --silent $POST_URL)
 if [[ $? -ne 0 ]]; then
     exit $?
 fi
