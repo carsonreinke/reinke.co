@@ -47,4 +47,4 @@ export TWEET_URL=$($NPM_BIN run tweet-url --silent $POST_URL)
 if [[ $? -ne 0 ]]; then
     exit $?
 fi
-$OPEN $TWEET_URL
+$OPEN $TWEET_URL >/dev/null
