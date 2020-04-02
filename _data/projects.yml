@@ -1,0 +1,33 @@
+- name: Email Marketing Report
+  links:
+    - http://emailmarketing.report
+    - https://github.com/carsonreinke/emailmarketing.report
+  description: Automatically collected email marketing reports.
+
+- name: Nginx Redirection Module
+  links: 
+    - https://github.com/carsonreinke/redirector
+    - https://github.com/carsonreinke/redirector.github.io
+    - https://redirector.website/
+  description: Nginx static module for redirection from DNS. Redirects a domain based on proper DNS entry of the domain.
+
+- name: Node Very Important Packages
+  links:
+    - https://carsonreinke.github.io/node-vip/
+    - https://github.com/carsonreinke/node-vip
+  description: Analyzing Node packages to identify which are the most important to the community.
+
+- name: HTML Conditional Comment
+  links:
+    - https://github.com/carsonreinke/html-conditional-comment 
+  description: Evaluate, parse, and tokenize HTML conditional comments
+
+- name: WkHtml
+  links:
+    - https://github.com/carsonreinke/wkhtml 
+  description: Ruby native gem for bindings against wkhtmltopdf
+
+- name: SCP for Git
+  links:
+    - https://github.com/carsonreinke/git-scp 
+  description: Utility to do secure copy from git command

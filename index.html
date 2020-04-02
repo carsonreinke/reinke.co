@@ -3,11 +3,30 @@ layout: default
 title: Carson Reinke
 ---
 
-<h2>Blog Posts</h2>
-<ul>
-  {% for post in site.posts %}
+<div class="column">
+  <h2>Blog Posts</h2>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a> ({{ post.date | date: "%m/%d/%Y" }})
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="column">
+  <h2>Personal Projects</h2>
+  <ul>
+    {% for project in site.data.projects %}
     <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> ({{ post.date | date: "%m/%d/%Y" }})
+      <h3>{{ project.name }} </h3>
+      <ul class="links">
+      {% for link in project.links %}
+        <li><a href="{{ link }}">{{ link }}</a></li>
+      {% endfor %}
+      </ul>
+      <p>{{ project.description }}</p>
     </li>
-  {% endfor %}
-</ul>
+    {% endfor %}
+  </ul>
+</div>

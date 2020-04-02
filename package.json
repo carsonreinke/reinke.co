@@ -12,7 +12,8 @@
   },
   "scripts": {
     "post-url": "node post-url.js",
-    "tweet-url": "node tweet-url.js"
+    "tweet-url": "node tweet-url.js",
+    "dev": "bundle exec jekyll serve"
   },
   "repository": {
     "type": "git",

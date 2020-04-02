@@ -27,10 +27,43 @@ header > nav > ol > li:last-child::after {
     content: '';
 }
 
+h3 {
+    font-size: 1em;
+}
+
 pre {
     overflow: scroll;
 }
 
 article img {
     max-width: 100%;
+}
+
+ul.links {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.links > li {
+    display: inline-block;
+}
+
+ul.links > li::after {
+    content: ' |';
+}
+
+ul.links > li:last-child::after {
+    content: '';
+}
+
+div.column {
+    width: 50%;
+    float: left;
+}
+
+@media (max-width: 768px) {
+    div.column {
+        width: auto;
+        float: none;
+    }
 }
