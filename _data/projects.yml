@@ -1,3 +1,9 @@
+- name: Student Selected Seating Generator
+  links:
+    - https://student-selected-seating-generator.reinke.co/#/
+    - https://github.com/carsonreinke/student-selected-seating-generator
+  description: Tool to help teachers arrange students in a classroom based on their own preferences for each other.
+
 - name: Email Marketing Report
   links:
     - http://emailmarketing.report
