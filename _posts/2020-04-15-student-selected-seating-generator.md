@@ -34,4 +34,5 @@ This project utilized the follow technologies:
 - GitHub pages
 
 [https://student-selected-seating-generator.reinke.co/#/](https://student-selected-seating-generator.reinke.co/#/)
+
 [https://github.com/carsonreinke/student-selected-seating-generator](https://github.com/carsonreinke/student-selected-seating-generator)
