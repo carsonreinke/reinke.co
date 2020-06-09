@@ -1,3 +1,15 @@
+theme: null
+plugins:
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+  - jekyll-seo-tag
 google_analytics: 'UA-38690663-1'
 permalink: "/:title:output_ext"
 title: &title "Carson Reinke's (🚗☀☔🔑) Blog"
