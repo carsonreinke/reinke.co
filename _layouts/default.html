@@ -13,6 +13,10 @@
       gtag('config', '{{ site.google_analytics }}');
     </script>
 
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
@@ -44,13 +48,14 @@
     {% endif %}
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://www.google-analytics.com">
 
     <link href="https://fonts.googleapis.com/css?family=Public+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   </head>
   <body>
     <header>
+      <div class="headshot"><img src="assets/images/android-chrome-512x512.png" alt="Carson Reinke's Headshot"></div>
+      
       <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
 
       <nav>

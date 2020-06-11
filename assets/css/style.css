@@ -56,8 +56,20 @@ ul.links>li:last-child::after {
 }
 
 div.column {
-    width: 50%;
+    width: 47%;
     float: left;
+}
+
+div.headshot {
+    float: right;
+}
+
+div.headshot>img {
+    width: 5em;
+    padding: 2px;
+    outline-style: inset;
+    outline-width: 2px;
+    outline-color: #000000;
 }
 
 @media (max-width: 768px) {
