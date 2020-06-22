@@ -26,14 +26,19 @@
 - name: HTML Conditional Comment
   links:
     - https://github.com/carsonreinke/html-conditional-comment 
-  description: Evaluate, parse, and tokenize HTML conditional comments
+  description: Evaluate, parse, and tokenize HTML conditional comments.
 
 - name: WkHtml
   links:
     - https://github.com/carsonreinke/wkhtml 
-  description: Ruby native gem for bindings against wkhtmltopdf
+  description: Ruby native gem for bindings against wkhtmltopdf.
+
+- name: Internets Down?
+  links:
+    - https://github.com/carsonreinke/internets-down
+  description: Utility to check the current status of network connection.
 
 - name: SCP for Git
   links:
     - https://github.com/carsonreinke/git-scp 
-  description: Utility to do secure copy from git command
+  description: Utility to do secure copy from git command.
