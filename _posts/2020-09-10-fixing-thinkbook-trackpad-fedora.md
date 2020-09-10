@@ -16,16 +16,16 @@ Below are the steps I took to accomplish this (assume all are `sudo`):
 4. `vim dsdt.dsl`
 5. Locate `TPVD == 0x45` and comment out block like below:
 
-  ```
-  Method (_STA, 0, NotSerialized)  // _STA: Status
-    {
-      //If ((TPVD == 0x45))
-        //{
-            Return (0x0F)
-        //}
-        //Return (Zero)
-    }
-  ```
+    ```
+    Method (_STA, 0, NotSerialized)  // _STA: Status
+      {
+        //If ((TPVD == 0x45))
+          //{
+              Return (0x0F)
+          //}
+          //Return (Zero)
+      }
+    ```
 
 6. On line 21, increment the version number like so: `DefinitionBlock ("", "DSDT", 2, "LENOVO", "ICL     ", 0x20170002)`
 7. `iasl -sa dsdt.dsl`
@@ -34,10 +34,10 @@ Below are the steps I took to accomplish this (assume all are `sudo`):
 10. `grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg`
 11. `vim /etc/modprobe.d/blacklist.conf` and add the following:
 
-  ```
-  #Allow module elan_i2c to control the touch pad
-  blacklist i2c_hid
-  ```
+    ```
+    #Allow module elan_i2c to control the touch pad
+    blacklist i2c_hid
+    ```
 
 12. Reboot
 
