@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Student Selected Seating Generator
+title: Student Selected Seating Generator (Vue.js)
 tags: []
 ---
 [Student Selected Seating Generator](https://student-selected-seating-generator.reinke.co/#/)
