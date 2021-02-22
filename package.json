@@ -5,10 +5,10 @@
   "dependencies": {},
   "devDependencies": {
     "jekyll-utils": "^0.2.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.1",
     "truncate": "^2.1.0",
-    "unfurl.js": "^5.0.1",
-    "yaml": "^1.7.2"
+    "unfurl.js": "^5.2.4",
+    "yaml": "^1.10.0"
   },
   "scripts": {
     "post-url": "node post-url.js",
