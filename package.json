@@ -5,7 +5,7 @@
   "dependencies": {},
   "devDependencies": {
     "jekyll-utils": "^0.2.0",
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "truncate": "^2.1.0",
     "unfurl.js": "^5.2.4",
     "yaml": "^1.10.0"
