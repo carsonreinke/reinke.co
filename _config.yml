@@ -11,6 +11,5 @@ plugins:
 google_analytics: 'UA-38690663-1'
 permalink: "/:title:output_ext"
 title: &title "Carson Reinke's (🚗☀☔🔑) Blog"
-twitter_username: "carsonreinke"
 description: *title
 url: "https://reinke.co"

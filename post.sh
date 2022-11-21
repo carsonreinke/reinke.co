@@ -41,10 +41,4 @@ fi
 echo 'Waiting for GitHub cache'
 sleep 60
 
-#Tweet post (well, kind of)
-echo "Tweeting post $POST_URL"
-export TWEET_URL=$($NPM_BIN run tweet-url --silent $POST_URL)
-if [[ $? -ne 0 ]]; then
-    exit $?
-fi
-$OPEN $TWEET_URL >/dev/null
+$OPEN $POST_URL >/dev/null
