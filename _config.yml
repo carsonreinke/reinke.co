@@ -8,7 +8,7 @@ plugins:
   - jekyll-default-layout
   - jekyll-titles-from-headings
   - jekyll-seo-tag
-google_analytics: 'G-K5FGBVRBFW'
+google_analytics: 'G-46P9H5WCMS'
 permalink: "/:title:output_ext"
 title: &title "Carson Reinke's (🚗☀☔🔑) Blog"
 description: *title
