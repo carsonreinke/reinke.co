@@ -8,7 +8,7 @@
 
 - name: Email Marketing Report
   links:
-    - http://emailmarketing.report
+    - https://carsonreinke.github.io/emailmarketing.report
     - https://github.com/carsonreinke/emailmarketing.report
   description: Automatically collected email marketing reports.
 
