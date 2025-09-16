@@ -2,7 +2,8 @@
 layout: post
 title: "`require': no such file to load"
 date: '2011-08-26T09:31:14-04:00'
-tags: []
+tags:
+  - link
 tumblr_url: https://reinke.co/post/9413836377/require-no-such-file-to-load
 ---
 [https://gist.github.com/54177](https://gist.github.com/54177)

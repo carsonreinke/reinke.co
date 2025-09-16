@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Getting PHP Environment Setup Locally On Fedora Linux
-tags: []
+tags:
+  - howto
 ---
 
 Recently, I had some issues getting PHP setup installed correctly and wanted to share how I properly accomplished it.  Please note, I have prefered `~/bin` over `/usr/local/bin`.

@@ -3,7 +3,7 @@ layout: post
 title: Ruby - No such file or directory - [RANDOM] Error
 date: '2012-05-03T10:54:00-04:00'
 tags:
-- ruby
+- link
 tumblr_url: https://reinke.co/post/22321475139/ruby-no-such-file-or-directory-random-error
 ---
 Was lucky to find these links below, problem with prelink, removing it has seem to fixed this issue.

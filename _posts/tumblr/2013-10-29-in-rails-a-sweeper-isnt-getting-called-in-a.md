@@ -3,7 +3,7 @@ layout: post
 title: In Rails, a Sweeper isn't getting called in a Model-only setup - Stack Overflow
 date: '2013-10-29T11:00:42-04:00'
 tags:
-- rails
+- howto
 tumblr_url: https://reinke.co/post/65435077535/in-rails-a-sweeper-isnt-getting-called-in-a
 ---
 [In Rails, a Sweeper isn't getting called in a Model-only setup - Stack Overflow](http://stackoverflow.com/questions/1463714/in-rails-a-sweeper-isnt-getting-called-in-a-model-only-setup)  

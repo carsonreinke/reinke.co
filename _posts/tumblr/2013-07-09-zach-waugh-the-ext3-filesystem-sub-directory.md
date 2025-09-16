@@ -3,8 +3,7 @@ layout: post
 title: 'Zach Waugh: The Ext3 filesystem sub-directory limit'
 date: '2013-07-09T08:47:21-04:00'
 tags:
-- linux
-- ext3
+- link
 tumblr_url: https://reinke.co/post/54996554146/zach-waugh-the-ext3-filesystem-sub-directory
 ---
 [Zach Waugh: The Ext3 filesystem sub-directory limit](http://blog.zachwaugh.com/post/309921185/ext3-filesystem-sub-directory-limit)  

@@ -356,3 +356,15 @@ div.headshot>img {
 .highlight {
     background-color: #f8f8f8;
 }
+
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.6em;
+  font-size: 0.65em;
+  font-weight: bold;
+  color: rgb(0, 0, 238);
+  border: 1px solid rgb(0, 0, 238);
+  border-radius: 0.5em;
+  line-height: 1;
+  white-space: nowrap;
+}

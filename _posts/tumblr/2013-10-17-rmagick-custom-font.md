@@ -3,8 +3,7 @@ layout: post
 title: rmagick custom font
 date: '2013-10-17T08:30:42-04:00'
 tags:
-- ruby
-- rmagick
+- link
 tumblr_url: https://reinke.co/post/64292541326/rmagick-custom-font
 ---
 [rmagick custom font](http://ferryzhou.wordpress.com/2012/06/16/rmagick-custom-font/)  

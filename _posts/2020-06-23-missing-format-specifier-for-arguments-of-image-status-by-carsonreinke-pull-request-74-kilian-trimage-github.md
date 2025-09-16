@@ -3,7 +3,7 @@ layout: post
 title: "Missing format specifier for arguments of image status by carsonreinke · Pull
   Request #74 · Kilian/Trimage · GitHub"
 tags:
-  - link
+  - contrib
 summary: "Fixes #73 ↵ To reproduce this issue, select a bunch of files, ensure some are
   queued and ensure that status displays. ↵ Tested with Python 3.7.7."
 ---

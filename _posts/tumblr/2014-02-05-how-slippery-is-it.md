@@ -3,7 +3,7 @@ layout: post
 title: How Slippery Is It?
 date: '2014-02-05T13:18:36-05:00'
 tags:
-- biking
+- link
 tumblr_url: https://reinke.co/post/75708276833/how-slippery-is-it
 ---
 [How Slippery Is It?](http://www.icebike.org/Articles/howslippery.htm)  

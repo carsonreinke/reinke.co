@@ -2,7 +2,8 @@
 layout: post
 title: Moving images for libvirt/qemu
 date: '2018-01-20T16:14:40-05:00'
-tags: []
+tags:
+  - howto
 tumblr_url: https://reinke.co/post/169933770517/moving-images-for-libvirtqemu
 ---
 I had to do this and wanted to share how to do this, as it was actually pretty easy.

@@ -3,7 +3,7 @@ layout: post
 title: "Feature exit code by carsonreinke · Pull Request #14 · dtylman/gitmoo-goog ·
   GitHub"
 tags:
-  - link
+  - contrib
 summary: "Added exit code of 1 on failure.  Otherwise, you can't tell from the shell if
   the command failed! ↵ Also, added: ↵  ↵ README note about building ↵ README
   n…"

@@ -3,8 +3,7 @@ layout: post
 title: Liquid::Drop method with arguments
 date: '2014-05-02T14:30:45-04:00'
 tags:
-- ruby
-- liquid
+- howto
 tumblr_url: https://reinke.co/post/84537796822/liquiddrop-method-with-arguments
 ---
 Kind of a hack, but possible using a new stack and a variable named “args” from a filter method:

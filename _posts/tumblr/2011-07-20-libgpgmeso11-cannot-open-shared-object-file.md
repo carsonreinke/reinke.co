@@ -3,7 +3,8 @@ layout: post
 title: 'libgpgme.so.11: cannot open  shared object file: No such file or directory
   in Unknown on line 0'
 date: '2011-07-20T16:49:44-04:00'
-tags: []
+tags:
+  - link
 tumblr_url: https://reinke.co/post/7856306280/libgpgmeso11-cannot-open-shared-object-file
 ---
 [http://old.nabble.com/Cannot-open-shared-object-file-td30570804.html](http://old.nabble.com/Cannot-open-shared-object-file-td30570804.html)
