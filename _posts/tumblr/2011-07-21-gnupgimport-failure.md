@@ -2,7 +2,8 @@
 layout: post
 title: gnupg_import Failure
 date: '2011-07-21T16:16:31-04:00'
-tags: []
+tags:
+  - link
 tumblr_url: https://reinke.co/post/7896434331/gnupgimport-failure
 ---
 [http://www.php.net/manual/en/function.gnupg-import.php](http://www.php.net/manual/en/function.gnupg-import.php)

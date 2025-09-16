@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Student Selected Seating Generator (React)
-tags: []
+tags:
+  - project
 ---
 [Student Selected Seating Generator](https://student-selected-seating-generator-react.reinke.co/#/)
 

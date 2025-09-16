@@ -3,7 +3,7 @@ layout: post
 title: "Remove Google OAuth OOB, add loopback server by carsonreinke · Pull
   Request #26 · dtylman/gitmoo-goog · GitHub"
 tags:
-  - link
+  - contrib
 summary: "Fixes #25. ↵ Adds a loopback server that spins up when starting the
   authentication process so the auth code can be pulled directly from the
   callback. ↵

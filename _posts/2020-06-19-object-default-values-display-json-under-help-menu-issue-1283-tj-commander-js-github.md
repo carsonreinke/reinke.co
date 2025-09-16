@@ -3,7 +3,7 @@ layout: post
 title: "Object default values display JSON under help menu · Issue #1283 ·
   tj/commander.js · GitHub"
 tags:
-  - link
+  - contrib
 summary: Using an any object as the default value displays a JSON version of that
   object. This might not be very user friendly. Here is an example using IPv4
   from i…

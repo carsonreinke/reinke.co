@@ -3,10 +3,7 @@ layout: post
 title: Saving A Screenshot With A Headless Browser
 date: '2013-02-23T18:28:12-05:00'
 tags:
-- phantomjs
-- selenium
-- ruby
-- webdriver
+- howto
 tumblr_url: https://reinke.co/post/43842389636/saving-a-screenshot-with-a-headless-browser
 ---
 1. Install [phantomjs](http://phantomjs.org/) with the following: `brew install phantomjs`

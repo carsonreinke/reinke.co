@@ -8,10 +8,10 @@ layout: default
   {{ page.content }}
 
   <section>
-  <time datetime="{{ page.date | date:"%F" }}">({{ page.date | date: "%m/%d/%Y" }})</time>
-  {% if page.tags.size > 0 %}
-    <small><em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-  {% endif %}
+    <time datetime="{{ page.date | date:"%F" }}">{{ page.date | date: "%F" }}</time>
+    {% for tag in page.tags %}
+      <span class="badge">{{ tag }}</span>
+    {% endfor %}
   </section>
 
 </article>

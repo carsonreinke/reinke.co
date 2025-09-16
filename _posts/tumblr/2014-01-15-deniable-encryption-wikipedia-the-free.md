@@ -2,7 +2,8 @@
 layout: post
 title: Deniable encryption - Wikipedia, the free encyclopedia
 date: '2014-01-15T12:35:36-05:00'
-tags: []
+tags:
+  - link
 tumblr_url: https://reinke.co/post/73422187475/deniable-encryption-wikipedia-the-free
 ---
 [Deniable encryption - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Deniable_encryption)  

@@ -3,7 +3,7 @@ layout: post
 title: 'jor1k: OR1000 Javascript Emulator Running Linux'
 date: '2013-09-17T12:36:04-04:00'
 tags:
-- sites
+  - link
 tumblr_url: https://reinke.co/post/61506693311/jor1k-or1000-javascript-emulator-running-linux
 ---
 [jor1k: OR1000 Javascript Emulator Running Linux](http://s-macke.github.io/jor1k/)  

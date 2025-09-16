@@ -3,7 +3,7 @@ layout: post
 title: "Fix help default values display by carsonreinke · Pull Request #1309 ·
   tj/commander.js · GitHub"
 tags:
-  - link
+  - contrib
 summary: "Pull Request ↵  ↵ Problem ↵ Fixes #1283. ↵ Default values for options that
   are not either string or boolean display as JSON encoded string. ↵ An example
   wo…"

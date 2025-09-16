@@ -8,7 +8,7 @@ title: "
 
   \    "
 tags:
-  - link
+  - contrib
 summary: " ↵       #51094 (WP_Query.query with invalid post_status will return all)
   ↵      – WordPress Trac ↵     "
 ---

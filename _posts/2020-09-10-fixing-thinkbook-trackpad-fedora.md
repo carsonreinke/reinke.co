@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Fixing ThinkBook Trackpad On Fedora"
-tags: []
+tags:
+  - howto
 ---
 
 I recently purchased a new Lenovo ThinkBook 14 and installed Fedora, unfortunately there is an issue with BIOS preventing the trackpad from working correctly.

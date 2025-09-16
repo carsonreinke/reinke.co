@@ -1,0 +1,18 @@
+---
+layout: default
+title: Interesting Links
+---
+
+<div>
+  <h2>{{ page.title }}</h2>
+
+  <ul>
+    {% for post in site.posts %}
+      {% if post.tags contains "link" %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a> ({{ post.date | date: "%m/%d/%Y" }})
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

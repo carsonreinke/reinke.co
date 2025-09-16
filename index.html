@@ -7,9 +7,16 @@ title: Carson Reinke
   <h2>Blog Posts</h2>
   <ul>
     {% for post in site.posts %}
+      {% unless post.tags contains "link" %}
       <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a> ({{ post.date | date: "%m/%d/%Y" }})
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a><time datetime="{{ post.date | date: "%F" }}">{{ post.date | date: "%F" }}</time>
+        {% if post.tags %}
+          {% for tag in post.tags %}
+            <span class="badge">{{ tag }}</span>
+          {% endfor %}
+        {% endif %}
       </li>
+      {% endunless %}
     {% endfor %}
   </ul>
 </div>

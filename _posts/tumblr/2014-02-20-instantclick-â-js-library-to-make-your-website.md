@@ -3,7 +3,7 @@ layout: post
 title: "InstantClick â\x80\x94 JS library to make your website instant"
 date: '2014-02-20T13:24:07-05:00'
 tags:
-- sites
+  - link
 tumblr_url: https://reinke.co/post/77293337400/instantclick-%C3%A2-js-library-to-make-your-website
 ---
 [InstantClick â JS library to make your website instant](http://instantclick.io/)  

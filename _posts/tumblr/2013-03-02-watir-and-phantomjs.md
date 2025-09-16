@@ -3,8 +3,7 @@ layout: post
 title: Watir and PhantomJS
 date: '2013-03-02T12:56:02-05:00'
 tags:
-- phantomjs
-- watir
+- howto
 tumblr_url: https://reinke.co/post/44383108617/watir-and-phantomjs
 ---
 1. Run the phantomjs webdriver first:&nbsp;`phantomjs --webdriver=8910`

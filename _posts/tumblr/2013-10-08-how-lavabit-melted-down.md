@@ -2,7 +2,8 @@
 layout: post
 title: How Lavabit Melted Down
 date: '2013-10-08T09:01:58-04:00'
-tags: []
+tags:
+  - link
 tumblr_url: https://reinke.co/post/63462983003/how-lavabit-melted-down
 ---
 [How Lavabit Melted Down](http://www.newyorker.com/online/blogs/elements/2013/10/how-lavabit-edward-snowden-email-service-melted-down.html)  
