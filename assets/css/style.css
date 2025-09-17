@@ -60,6 +60,19 @@ div.column {
   float: left;
 }
 
+div.posts ul, div.projects ul {
+  padding-left: 0;
+}
+
+div.posts ul>li, div.projects ul>li {
+  list-style-type: none;
+  padding: 0.25em 0 0.25em 0;
+}
+
+div.projects ul>li:first-child h3 {
+  margin-top: 0;
+}
+
 div.headshot {
   float: right;
 }
