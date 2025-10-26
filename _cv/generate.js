@@ -25,7 +25,7 @@ const run = async () => {
     width: "8in",
     height: "10in",
     printBackground: true,
-    margin: { top: "15mm", right: "15mm", bottom: "15mm", left: "15mm" }
+    margin: { top: 0, right: 0, bottom: 0, left: 0 }
   });
 
   process.stdout.write(pdf); // pipe PDF to stdout
