@@ -19,6 +19,12 @@
     - https://redirector.website/
   description: Nginx static module for redirection from DNS. Redirects a domain based on proper DNS entry of the domain.
 
+- name: Which Day is Most Likely to Rain?
+  links:
+    - https://carsonreinke.github.io/which-day-is-most-likely-to-rain/
+    - https://github.com/carsonreinke/which-day-is-most-likely-to-rain
+  description: A small data project that calculates the historical chance of precipitation for each weekday using weather station data and Apache Spark.
+
 - name: Node Very Important Packages
   links:
     - https://carsonreinke.github.io/node-vip/
