@@ -11,7 +11,8 @@
       font-size: 16px;
     }
 
-    html, body {
+    html,
+    body {
       margin: 0;
       padding: 0;
     }
@@ -145,7 +146,8 @@
       color: #555;
     }
 
-    .experience .date, .education .date {
+    .experience .date,
+    .education .date {
       float: right;
       font-style: italic;
       color: #999;
@@ -178,71 +180,48 @@
       color: #333;
     }
 
-
-    /* Responsive */
-    /* @media (max-width: 768px) {
-      .container {
-        grid-template-columns: 1fr;
-      }
-
-      .sidebar {
-        align-items: flex-start;
-      }
-
-      .sidebar img {
-        margin: 0 auto 15px;
-      }
-    } */
-
     /* Print Styles */
     @media print {
+      @page {
+        size: 8in 10in;
+        margin: 0;
+      }
+
       html {
         font-size: 14px;
       }
 
-      html, body {
+      html,
+      body {
         width: 100%;
-        margin: 0;
+      }
+
+      p {
+        orphans: 3;
+        widows: 3;
       }
 
       .container {
-        max-width: 100%;
-        width: 100%;
         box-shadow: none;
-        /* margin: 0; */
-        /* grid-template-columns: 280px 1fr; */
-        /* Sidebar + main proportions */
       }
 
       .sidebar {
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
-        /* background: #0c2c54 !important;
-        color: white !important; */
+        height: 100%;
       }
 
-      .sidebar h2 {
-        /* background: #173d6a !important;
-        color: white !important; */
+      .page-break {
+        margin-top: 1.25rem;
+        page-break-before: always;
       }
 
-      .main h1 {
-        /* font-size: 32px;
-        margin-bottom: 20px; */
-      }
-
-      .section h2 {
-        /* border-bottom: 1px solid #aaa;
-        font-size: 16px;
-        margin-bottom: 10px; */
-      }
-
-      .experience p,
-      .tools ul li,
-      .languages li,
-      .contact p,
-      .sidebar ul li {
-        /* font-size: 12px; */
+      .section.experience .position,
+      .section.profile,
+      .section.education,
+      .section.tools,
+      .section.languages {
+        break-inside: avoid-page;
       }
 
       .pdf-link {
@@ -252,12 +231,6 @@
       a::after {
         content: "";
         /* Suppress printing long URLs */
-      }
-
-      /* Page setup: 8x10 inches, multipage flow */
-      @page {
-        size: 8in 10in;
-        margin: 0;
       }
     }
   </style>
@@ -314,52 +287,70 @@
       <div class="section experience">
         <h2>Experience</h2>
 
-        <h3>Software Engineer</h3>
-        <p><strong>Stripe</strong><span class="date">August 2021 – Present</span></p>
-        <p>Contributed to core engineering initiatives, delivering scalable solutions and collaborating across teams to
-          ensure technical excellence.</p>
-        <p><strong>Tech:</strong> Java, Ruby, Mongo</p>
+        <div class="position">
+          <h3>Software Engineer</h3>
+          <p><strong>Stripe</strong><span class="date">August 2021 – Present</span></p>
+          <p>Contributed to core engineering initiatives, delivering scalable solutions and collaborating across teams
+            to
+            ensure technical excellence.</p>
+          <p><strong>Tech:</strong> Java, Ruby, Mongo</p>
+        </div>
 
-        <h3>Software Engineer</h3>
-        <p><strong>TaxJar</strong><span class="date">November 2020 – August 2021</span></p>
-        <p>Supported development efforts for tax automation products, improving reliability, performance, and developer
-          experience.</p>
-        <p><strong>Tech:</strong> Ruby, Rails, Postgres</p>
+        <div class="position">
+          <h3>Software Engineer</h3>
+          <p><strong>TaxJar</strong><span class="date">November 2020 – August 2021</span></p>
+          <p>Supported development efforts for tax automation products, improving reliability, performance, and
+            developer
+            experience.</p>
+          <p><strong>Tech:</strong> Ruby, Rails, Postgres</p>
+        </div>
 
-        <h3>Development Manager</h3>
-        <p><strong>Brand Labs</strong> | Ecommerce agency<span class="date">June 2017 – June 2020</span></p>
-        <p>Provided technical leadership and day-to-day management for an 8-person development team. Defined coding
-          standards, deployment procedures, and project documentation. Reviewed work for quality, assisted sales with
-          technical estimates, and architected ecommerce projects and products. Maintained hands-on development
-          alongside management responsibilities.</p>
-        <p><strong>Tech:</strong> Node.js, PHP, Laravel, MySQL</p>
+        <div class="position">
+          <h3>Development Manager</h3>
+          <p><strong>Brand Labs</strong> | Ecommerce agency<span class="date">June 2017 – June 2020</span></p>
+          <p>Provided technical leadership and day-to-day management for an 8-person development team. Defined coding
+            standards, deployment procedures, and project documentation. Reviewed work for quality, assisted sales with
+            technical estimates, and architected ecommerce projects and products. Maintained hands-on development
+            alongside management responsibilities.</p>
+          <p><strong>Tech:</strong> Node.js, PHP, Laravel, MySQL</p>
+        </div>
 
-        <h3>Technical Products Manager</h3>
-        <p><strong>Brand Labs</strong> | Ecommerce agency<span class="date">July 2011 – June 2017</span></p>
-        <p>Managed and enhanced Autoresponder Max, an email remarketing SaaS platform. Expanded testing coverage,
-          oversaw hosting infrastructure, and contributed product ideas to drive sales. Led feature development and
-          platform improvements.</p>
-        <p><strong>Tech:</strong> Ruby, Rails, MySQL, Redis</p>
+        <div class="position">
+          <h3>Technical Products Manager</h3>
+          <p><strong>Brand Labs</strong> | Ecommerce agency<span class="date">July 2011 – June 2017</span></p>
+          <p>Managed and enhanced Autoresponder Max, an email remarketing SaaS platform. Expanded testing coverage,
+            oversaw hosting infrastructure, and contributed product ideas to drive sales. Led feature development and
+            platform improvements.</p>
+          <p><strong>Tech:</strong> Ruby, Rails, MySQL, Redis</p>
+        </div>
 
-        <h3>Developer</h3>
-        <p><strong>Brand Labs</strong> | Ecommerce agency<span class="date">October 2007 – October 2011</span></p>
-        <p>Established the company’s development team and procedures for ecommerce store theme implementation on the
-          Volusion platform. Created efficient processes to transform design compositions into production-ready
-          projects, enabling high-volume delivery.</p>
-        <p><strong>Tech:</strong> PHP, ASP, MySQL, SQL Server</p>
+        <div class="position page-break">
+          <h3>Developer</h3>
+          <p><strong>Brand Labs</strong> | Ecommerce agency<span class="date">October 2007 – October 2011</span></p>
+          <p>Established the company’s development team and procedures for ecommerce store theme implementation on the
+            Volusion platform. Created efficient processes to transform design compositions into production-ready
+            projects, enabling high-volume delivery.</p>
+          <p><strong>Tech:</strong> PHP, ASP, MySQL, SQL Server</p>
+        </div>
 
-        <h3>Software Developer</h3>
-        <p><strong>Marketing Associates</strong> | Marketing incentives agency<span class="date">September 2004 – October 2007</span></p>
-        <p>Developed and maintained Java-based web and desktop applications for large-scale automotive incentive and
-          rewards programs, utilizing J2EE frameworks with Oracle databases to improve functionality, data integrity,
-          and business rule implementation.</p>
+        <div class="position">
+          <h3>Software Developer</h3>
+          <p><strong>Marketing Associates</strong> | Marketing incentives agency<span class="date">September 2004 –
+              October 2007</span></p>
+          <p>Developed and maintained Java-based web and desktop applications for large-scale automotive incentive and
+            rewards programs, utilizing J2EE frameworks with Oracle databases to improve functionality, data integrity,
+            and business rule implementation.</p>
+        </div>
 
-        <h3>Developer</h3>
-        <p><strong>Sv3 Media Group</strong> | Web development agency<span class="date">August 2002 – September 2004</span></p>
-        <p>Served as Technical Lead delivering high-traffic web applications and enterprise tools using the Microsoft
-          technology stack with SQL Server, collaborating directly with clients to define requirements and implement
-          award-winning, scalable solutions.
-        </p>
+        <div class="position">
+          <h3>Developer</h3>
+          <p><strong>Sv3 Media Group</strong> | Web development agency<span class="date">August 2002 – September
+              2004</span></p>
+          <p>Served as Technical Lead delivering high-traffic web applications and enterprise tools using the Microsoft
+            technology stack with SQL Server, collaborating directly with clients to define requirements and implement
+            award-winning, scalable solutions.
+          </p>
+        </div>
 
       </div>
 
@@ -396,7 +387,7 @@
         </ul>
       </div>
 
-      <div class="section languages">
+      <div class="section languages page-break">
         <h2>Languages</h2>
         <ul>
           <li><strong>Ruby</strong> Rails, Rake, Resque, MiniTest, VCR</li>
@@ -411,12 +402,12 @@
         </ul>
       </div>
 
-      <div class="section projects">
+      <!-- <div class="section projects">
         <h2>Side Projects</h2>
         <ul>
           <li></li>
         </ul>
-      </div>
+      </div> -->
     </main>
   </div>
 </body>
