@@ -146,6 +146,16 @@
       color: #555;
     }
 
+    .experience ul {
+      /* padding-left: 0; */
+      padding-left: 0.9rem;
+    }
+
+    .experience ul li {
+      font-size: 0.875rem;
+      color: #555;
+    }
+
     .experience .date,
     .education .date {
       float: right;
@@ -291,8 +301,23 @@
           <h3>Software Engineer</h3>
           <p><strong>Stripe</strong><span class="date">August 2021 – Present</span></p>
           <p>Contributed to core engineering initiatives, delivering scalable solutions and collaborating across teams
-            to
-            ensure technical excellence.</p>
+            to ensure technical excellence.</p>
+          <ul>
+            <li>Maintained and enhanced TaxJar sales tax reporting following the acquisition.</li>
+            <li>Introduced evergreen jurisdiction tax reports, enabling continuous automated report generation.</li>
+            <li>Delivered Location Reports to generate indirect sales tax reports for every U.S. jurisdiction.</li>
+            <li>Built 3P Transaction Imports, enabling ingestion of external transactions for liability tracking.</li>
+            <li>Developed the Obligations Monitor to improve visibility into compliance requirements.</li>
+            <li>Supported Stripe Tax country expansions, adapting pipelines for global rules.</li>
+            <li>Added filing artifact downloads for Location Reports to support audits.</li>
+            <li>Authored external developer documentation for Stripe customers.</li>
+            <li>Led multi-region readiness efforts to improve reliability and redundancy.</li>
+            <li>Contributed to Tax Reporting Futures architecture and data model proposals.</li>
+            <li>Added posting date support to the Standalone Tax API.</li>
+            <li>Implemented tax data validation, monitoring, and quality improvements.</li>
+            <li>Built a Tax Overview page POC for future product direction.</li>
+            <li>Wrote tech specs, proposals, dashboards, and runbooks for engineering and on-call teams.</li>
+          </ul>
           <p><strong>Tech:</strong> Java, Ruby, Mongo</p>
         </div>
 
@@ -302,6 +327,12 @@
           <p>Supported development efforts for tax automation products, improving reliability, performance, and
             developer
             experience.</p>
+          <ul>
+            <li>Maintained and enhanced U.S. state location-based indirect use tax reports.</li>
+            <li>Implemented refund rollover logic to ensure correct tax period liability adjustments.</li>
+            <li>Assisted filing operations by reconciling reports, resolving discrepancies, and triaging production issues.</li>
+            <li>Built a summary report aggregation system to pre-compute and speed up report delivery.</li>
+          </ul>
           <p><strong>Tech:</strong> Ruby, Rails, Postgres</p>
         </div>
 
